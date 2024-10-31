@@ -8,5 +8,5 @@ const getKeys = async (): Promise<string[]> => {
 	})).text()).split("\n").filter((key) => key);
 };
 
-const response = await verifyTask(await getKeys());
+const response = await verifyTask("POLIGON", await getKeys());
 console.log(await response.json());

@@ -1,0 +1,20 @@
+{
+    "name": "mwl91/ai_devs",
+    "description": "AI_Devs tasks",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "symfony/dotenv": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.4",
+        "symfony/var-dumper": "^7.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mwl91\\AiDevs\\": "src/",
+            "Mwl91\\AiDevs\\Tests\\": "tests/"
+        }
+    }
+}

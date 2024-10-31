@@ -1,3 +1,5 @@
+/.idea
 /js/.env
 /js/node_modules
-/.idea
+/php/.env
+/php/vendor
