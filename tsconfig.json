@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                 // Wersja ECMAScript, której używamy
+    "module": "NodeNext",                // Ustaw na NodeNext
+    "moduleResolution": "NodeNext",      // Używaj NodeNext do rozwiązywania modułów
+    "strict": true,                      // Włącza tryb ścisły
+    "esModuleInterop": true,             // Umożliwia interop z modułami CommonJS
+    "skipLibCheck": true,                // Pomija sprawdzanie typów w plikach deklaracji
+    "lib": ["ESNext", "DOM"],            // Używaj ESNext i DOM jako bibliotek
+    "types": ["node"]                    // Dodaj typy dla Node.js
+  },
+  "include": ["**/*.ts"],                // Dołącz wszystkie pliki TypeScript
+  "exclude": ["node_modules"]            // Wyklucz folder node_modules
+}
