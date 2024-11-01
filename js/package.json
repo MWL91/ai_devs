@@ -4,7 +4,7 @@
   "description": "",
   "main": "test.js",
   "scripts": {
-    "poligon1": "npx tsc && node poligon1.js"
+    "dev": "npx tsc && node "
   },
   "keywords": [],
   "author": "",
