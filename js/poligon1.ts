@@ -1,5 +1,4 @@
 import fetch from 'node-fetch';
-import 'dotenv/config'
 import verifyTask from "./verifyTask.js";
 
 const getKeys = async (): Promise<string[]> => {
