@@ -1,5 +1,4 @@
 /.idea
-/js/.env
+/.env
 /js/node_modules
-/php/.env
 /php/vendor
